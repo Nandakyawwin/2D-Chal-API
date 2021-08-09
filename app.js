@@ -22,13 +22,18 @@ var c = new Crawler({
 
                 let result1 = data_ary[143].slice(8, 9);
 
-                let result2 = data_ary[119].slice(4, 5)
+                let result2 = data_ary[119].slice(4, 5);
+
+                let set = data_ary[143].slice(0, 9);
+
+                let val = data_ary[119].slice(0, 9);
+
 
                 let api_test = {
 
-                    "SET": data_ary[119],
+                    "SET": set,
 
-                    "VAL": data_ary[143],
+                    "VAL": val,
 
                     "RES1": result1,
 
@@ -36,20 +41,15 @@ var c = new Crawler({
 
                     "RESULT": result1 + result2
 
-                }
+                };
 
-                console.log(api_test.SET)
+                console.log(api_test.SET);
 
-                console.log(api_test.VAL)
+                console.log(api_test.VAL);
 
-                console.log(api_test.RESULT)
-
-
+                console.log(api_test.RESULT);
 
             }, 1000);
-
-
-
 
         done();
     }
