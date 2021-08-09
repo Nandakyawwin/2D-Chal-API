@@ -1,0 +1,14 @@
+{
+  "name": "2d3d_api",
+  "version": "1.0.0",
+  "description": "2D 3D Myanmar Chal API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nanda Kyaw Win",
+  "license": "MIT",
+  "dependencies": {
+    "crawler": "^1.3.0"
+  }
+}
