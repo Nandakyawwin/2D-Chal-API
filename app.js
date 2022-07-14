@@ -56,4 +56,4 @@ var c = new Crawler({
 });
 
 
-c.queue('https://marketdata.set.or.th/mkt/marketsummary.do?language=th&country=TH');
+c.queue('https://classic.set.or.th/mkt/marketsummary.do?language=en&country=US');
