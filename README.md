@@ -1,2 +1,2 @@
 # 2D-Chal-API
- နှစ်လုံးဂဏန်း API for Node.JS Source code
+ နှစ်လုံးဂဏန်း API
